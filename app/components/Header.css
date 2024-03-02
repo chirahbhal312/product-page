@@ -1,0 +1,18 @@
+#header{
+  position: relative;
+  z-index: 30;
+  font-size: 22.5px;
+  color: #fff;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  /* margin-bottom: 20px; */
+  background-color: rgba(0, 0, 0, 0.8);
+
+}
+
+#logo{
+    height: 64px;
+}
+

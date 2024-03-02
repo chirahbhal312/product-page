@@ -1,0 +1,53 @@
+#newdiv{
+    width: 66vw;
+    margin-top: -10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.8);
+
+}
+
+#slider{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+#prev{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    color: #fff;
+    font-size: 1rem;
+    z-index: 10;
+    left: -9rem;
+    top: 50%; 
+}
+
+#next{
+    position: absolute;
+    top: 52.5%;
+    width: 32px;
+    height: 32px;
+    color: #fff;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: -9rem;
+}
+
+#title2{
+    position: absolute;
+    left: 42%;
+    z-index: 40;
+    color: #fff;
+    text-align: center;
+    background-color: #80808066;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    margin-top: 20px;
+}
